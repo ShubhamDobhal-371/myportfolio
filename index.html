@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design | Codehal</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <div class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+        <i class='bx bx-moon' id="darkmoon-icon"></i>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+    </div>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Shubham Rajput</h1>
+            <!-- here write your about you -->
+            <p>Hey, I'm Full-stack Web developer with a focus on crafting engaging user experiences. Proficient in HTML, CSS, JavaScript, and Java enthusiast. Let's bring creativity and functionality to the digital world!</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/shubham-dobhal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.instagram.com/shubh.6267?igsh=ZndnZnExOGZ1MGF1"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/ShubhamDobhal-371"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+               
+            </div>
+            <a href="https://drive.google.com/file/d/1dvrHEq6y6K7wxPphOvYbbwX1OOpFaw_p/view?usp=drive_link" target="_blank" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="proffesion" style="--i:0;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Web Developer</h3>
+                </div>
+
+                <div class="proffesion" style="--i:1;" >
+                    <i class='bx bx-palette' ></i>
+                    <h3>Web design</h3>
+                </div>
+
+                <div class="proffesion" style="--i:2;">
+                    <i class='bx bxl-java' ></i>
+                    <h3>Java Developer</h3>
+                </div>
+
+                <div class="proffesion" style="--i:3;">
+                    <i class='bx bx-camera' ></i>
+                    <h3>Photographer</h3>
+                </div>
+                <div class="circle">
+
+                </div>
+            </div>
+            <div class="overlay">
+
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="/images/Profile.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/images/about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here To Help You Next Project!</h3>
+            <p>Hello there! I'm <span>Shubham Dobhal</span>, a recent graduate in <span>Computer Science and Engineering with a B.Tech degree</span>. I have expertise in <span>web development, Java, and Python</span>. I'm passionate about crafting solutions that make a positive impact, and I excel in collaborative environments. Let's connect and discover the exciting possibilities ahead!</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+
+    <section class="services" id="services">
+        <div class="heading">My <span>Services</span></div>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I provide end-to-end web development services, specializing in custom websites with responsive design and seamless functionality. From front-end expertise in HTML, CSS, and JavaScript to back-end solutions using frameworks like Node.js, I ensure a smooth user experience. Services also include efficient database management, API development, and ongoing support. Let's collaborate to transform your digital ideas into reality!</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt' ></i>
+                <h3>Digital Markating</h3>
+                <p>Enhance your online presence with my digital marketing expertise.I specialize in effective social media strategies, SEO implementation, and compelling content creation for blogs and social channels. Offering targeted email campaigns, PPC advertising, and continuous optimization through comprehensive analytics. I prioritize online reputation management and provide consultations and training sessions for personalize strategies. </p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-java' ></i>
+                <h3>Java Development</h3>
+                <p>I specialize in Java development, offering services such as full-stack development, dynamic web application creation, and RESTful API implementation. With expertise in enterprise-level applications and microservices architecture, I optimize code for enhanced performance. I excel in database integration, continuous integration/deployment, and provide consultations and training. Let's work together.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/images/pythonProject.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Python Project</h4>
+                    <p>Implemented speech-to-text and text-to-speech functionality, enabling seamless interaction with the Voice Assistant through voice
+                        commands and responses, with Python</p>
+                    <a href="https://github.com/ShubhamDobhal-371/AI_Voice-Assistent_python-project.git"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/UsabilityHubss.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Usability Hub Website</h4>
+                    <p>A responsive Usability Hub clone implemented in HTML and CSS is a web application that closely replicates the user interface and design of Usability Hub</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/YoutubeClone.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>YouTube Responsive Clone</h4>
+                    <p>Create Youtube Responsive Clone BY using HTML5, CSS3, JavaScript</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/GSAPSCRollTrigger.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Animation On ScrollTrigger</h4>
+                    <p>Using GSAP(JS framework) Create Animated Website</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/images/NetflixClone.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>NetFlix Clone</h4>
+                    <p>Created a responsive Netflix clone using HTML, CSS, Implemented responsive design principles to ensure a seamless user experience across various devices and screen sizes by using CSS.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/GSAPEffect.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Animated Website GSAP EFFECT</h4>
+                    <p>Using GSAP Framework Create Animated Website Landing Page</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/AnimatedWebsite.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Animated Website GSAP EFFECT (Cynthiya Ugbu)</h4>
+                    <p> Animated Website GSAP EFFECT (Cynthiya Ugbu) Using HTML5,CSS3,JavaScript,GSAP</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="/images/AmazonClone.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Amazon Landing Page</h4>
+                    <p>Created a responsive Amazon clone using HTML, CSS, Implemented responsive design principles to ensure a seamless user experience across various devices.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span> </h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Shubham Rajput | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home "><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
